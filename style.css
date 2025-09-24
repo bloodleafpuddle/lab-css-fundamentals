@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "creepyfont";
+    src: url(SuperRugged-4nBy9.ttf) format(truetype); 
+}
+
+body{
+    background-image: url(websitebackground1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: rgb(163, 163, 163);
+    text-align: center;
+    font-family: "creepyfont", sans-serif;
+    padding: 30px;
+}
+
+h1{
+    font-size: 100px;
+    letter-spacing: 3px;
+    padding: 20px;
+    margin: 10px 10px;
+    color: rgb(77, 2, 2);
+}
+
+h2{
+    font-size: 60px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+}
+
+.form-container{
+    width: 50%;
+    padding: 60px;
+    border: 5px solid rgb(65, 65, 65);
+    border-radius: 10px;
+    margin: 100px auto;
+    background-image: url(darkredspooky.jpg);
+    background-size: cover;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 2;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+
+.form-input{
+    color: rgb(197, 197, 197);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(36, 36, 36, 0.37);
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.button-container button {
+    font-family: inherit;
+    flex-grow: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 7px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.submit-btn {
+    background-color: rgb(53, 1, 1);
+    color: rgb(192, 192, 192);
+}
+
+.reset-btn {
+    background-color: rgb(46, 22, 22);
+    color: rgb(163, 163, 163);
+}
+
+.submit-btn:hover {
+    background-color: rgb(116, 0, 0);
+}
+
+.reset-btn:hover {
+    background-color: rgb(80, 22, 22);
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    color: #616161;
+    letter-spacing: 3px;
+    margin-top: auto;
+    padding-top: 20px;
+}
